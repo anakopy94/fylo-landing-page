@@ -1,0 +1,488 @@
+body {
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: hsl(243, 87%, 12%);
+    font-size: 18px;
+}
+
+.titels-header__font {
+    font-family: "Raleway";
+}
+
+.titels-header__font--bolded {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.4;
+    font-family: "Raleway";
+}
+
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/*header*/
+
+.header {
+    margin: 65px 0 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 170px;
+}
+
+.header__links a {
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+    margin-left: 60px;
+}
+
+.header__links a:nth-child(1) {
+    margin-left: 0;
+}
+
+.header__links a:hover {
+    color: hsl(238, 22%, 44%);
+}
+
+/*intro*/ 
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 165px;
+}
+
+.intro__content {
+    width: 590px;
+}
+
+.intro__content h2 {
+    margin-bottom: 15px;
+}
+
+.intro__content p {
+    margin-bottom: 25px;
+}
+
+.intro__img {
+    width: 635px;
+}
+
+.email__input {
+    height: 45px;
+    width: 320px;
+    padding-left: 20px;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.email__button {
+    height: 45px;
+    padding: 0 60px;
+    margin-left: 20px;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 3px 3px 7px hsla(243, 87%, 12%, 0.199);
+    transition: background-color 0.3s;
+}
+
+.email__button:hover {
+    background-color: #6b9bff;
+    cursor: pointer;
+}
+
+/*background*/ 
+
+.background-wave {
+    height: 114px;
+    background: url(./images/bg-curve-desktop.svg)no-repeat;
+    background-size: cover;
+    
+}
+
+.background-wrapper {
+  background: #f9f8fe;
+}
+
+/*block-comment*/ 
+
+.block-comment {
+    padding: 130px 0 105px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-comment__img {
+    width: 540px;
+}
+
+.block-comment__text {
+    width: 660px;
+}
+
+.block-comment__text h2 {
+    padding-bottom: 40px;
+}
+
+.block-comment__text p {
+    margin-bottom: 25px;
+}
+
+
+.block-comment__link svg {
+    margin-left: 7px;
+    fill: hsl(170, 45%, 43%);
+}
+
+.block-comment__link {
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+
+.block-comment__link:hover {
+    color: hsla(170, 45%, 43%, 0.596);
+}
+
+.block-comment__link:hover svg {
+    fill: hsla(170, 45%, 43%, 0.596);
+}
+
+.block-comment__comment {
+    width: 360px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px hsla(243, 87%, 12%, 0.137);
+    padding: 25px 40px 25px 30px;
+    background-color: #fff;
+}
+
+.block-comment__user-information {
+    display: flex;
+    align-items: center;
+}
+
+.block-comment__photo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-information__name {
+    font-size: 10px;
+}
+
+.user-information__user-name {
+    font-size: 12px;
+}
+
+.user-information__name p{
+    margin-bottom: 0;
+}
+
+.block-comment__comment svg {
+    margin-bottom: 20px;
+}
+
+.block-comment__review {
+    font-size: 14px;
+}
+
+/*offer*/
+
+.background-wrapper__offer {
+    background: hsl(238, 22%, 44%);
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    padding: 110px 0 85px;
+}
+
+.offer__text {
+    color: #f9f8fe;
+    width: 520px;
+    font-size: 17px;
+}
+
+.offer__text h2 {
+    font-size: 30px;
+}
+
+.offer__input {
+    width: 480px;
+}
+
+.offer__input .email__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__input .email__input {
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 7px hsla(243, 87%, 12%, 0.199);
+}
+
+.offer__input .email__button {
+    margin-left: 0;
+    padding: 0 33px;
+}
+
+/*footer*/
+
+.background-wrapper__footer {
+    background-color: #07043b;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 70px;
+}
+
+.footer__logo svg {
+    fill: #fff;
+    width: 175px;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    line-height: 2.5;
+    font-size: 16px;
+}
+
+.footer__social {
+    
+    flex-direction: row;
+}
+
+.footer__logo {
+    padding-top: 105px;
+}
+
+.footer__social svg {
+    width: fit-content;
+    padding-right: 15px;
+    fill: #fff;
+}
+
+.footer__contacts__icons {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__contacts__icons svg {
+    margin-right: 20px;
+}
+
+.footer__nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__nav :hover {
+    color: #575989;
+}
+
+.footer__social svg:hover {
+    fill: #575989;
+}
+
+
+
+
+
+
+@media (max-width: 375px) {
+    .background-wave {
+        height: 53px;
+        background: url(./images/bg-curve-mobile.svg)no-repeat;
+        background-size: cover;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 1300px) {
+    body {
+        font-size: 15px;
+        text-align: center;
+    }
+    .wrapper {
+        width: 330px;
+    }
+
+    .titels-header__font--bolded {
+        font-size: 25px;
+    }
+
+    /*header*/
+
+    .header__logo {
+        width: 80px;
+    }
+
+    .header__links a {
+        margin-left: 25px;
+        font-size: 13px;
+    }
+
+    .header {
+        margin: 25px 0 100px;
+    }
+
+    /*intro*/
+
+    .intro {
+        flex-direction: column-reverse;
+        margin-bottom: 90px;
+    }
+
+    .intro__content {
+        width: auto;
+    }
+
+    .email__input {
+        width: 300px;
+        margin-bottom: 15px;
+    }
+
+    .email__button {
+        width: 300px;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .intro__img {
+        margin-bottom: 45px;
+    }
+
+    .intro__content h2 {
+        margin-bottom: 30px;
+    }
+
+    /*comment*/
+
+    .block-comment {
+        flex-direction: column-reverse;
+        text-align: start;
+        padding: 40px 0 80px;
+        justify-content: center;
+    }
+
+    .block-comment__text h2 {
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 19px;
+    }
+
+    .block-comment__text {
+        width: 315px;
+        font-size: 14px;
+        margin-top: 90px;
+    }
+
+    .block-comment__comment {
+        width: 280px;
+        padding: 20px 15px 20px 25px;
+        margin: 40px auto 0;
+    }
+
+    .block-comment__review {
+        font-size: 9px;
+    }
+
+    .block-comment__comment svg {
+        margin-bottom: 10px;
+    }
+
+    .block-comment__text p {
+        margin-bottom: 15px;
+    }
+
+    .user-information__name p{
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .block-comment__link {
+        display: block;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    /*offer*/ 
+
+    .offer {
+        flex-direction: column;
+        padding: 60px 0 70px;
+    }
+     
+    .offer__text {
+        font-size: 14px;
+        width: fit-content;
+    }
+
+    .offer__text h2 {
+        font-size: 19px;
+        margin-bottom: 20px; 
+    }
+
+    .offer__input {
+        width: 315px;
+        margin-top: 25px;
+    }
+
+    .offer__input .email__input {
+        width: 240px;
+        margin-bottom: 9px;
+    }
+
+    .offer__input .email__button {
+        width: 240px;
+    }
+
+    /*footer*/
+
+    .footer {
+        flex-direction: column;
+        padding: 40px 0 45px;
+        text-align: start;
+    }
+
+    .footer__logo {
+        padding-top: 65px 0 40px;
+        text-align: start;
+    }
+
+    .footer__contacts {
+        margin-bottom: 60px;
+    }
+
+    .footer__nav {
+        margin-bottom: 50px;
+    }
+
+    .footer__social {
+        align-self: center;
+
+    }
+
+    
+
+        
+}
